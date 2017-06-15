@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 49dcf5de4e8c07c48a5fdd47fe89df14
+timeCreated: 1426100850
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Robot_01
+    100004: Robot_01_part_00
+    100006: Robot_01_part_01
+    100008: Robot_01_part_01Gizmo
+    100010: Robot_01_part_02
+    100012: Robot_01_part_03
+    100014: Robot_01_part_03Gizmo
+    100016: Robot_01_part_04
+    100018: Robot_01_part_05
+    100020: Robot_01_part_05Gizmo
+    100022: Robot_01_part_06
+    100024: Robot_01_part_06Gizmo
+    100026: Robot_01_part_07
+    100028: Robot_01_part_07Gizmo
+    100030: Robot_01_part_08
+    100032: Robot_01_part_09
+    100034: Robot_01_part_10
+    100036: Robot_01_part_10Gizmo
+    100038: Robot_01_part_11
+    100040: Robot_01_part_11Gizmo
+    100042: Robot_01_part_12
+    100044: Robot_01_part_13
+    100046: Robot_01_part_14
+    100048: Robot_01_part_15
+    100050: Robot_01_part_16
+    100052: Robot_01_part_17
+    100054: Robot_01_part_18
+    100056: Robot_01_part_19
+    100058: Robot_01_part_20
+    100060: Robot_01_part_21
+    100062: Robot_01_part_22
+    100064: Robot_01_part_23
+    100066: Robot_01_part_24
+    100068: Robot_01_part_25
+    100070: Robot_01_part_26
+    100072: Robot_01_part_27
+    100074: Robot_01_part_28
+    100076: Robot_01_part_28Gizmo
+    100078: Robot_01_part_29
+    100080: Robot_01_part_29Gizmo
+    100082: Robot_01_part_30
+    100084: Robot_01_part_31
+    100086: Robot_01_part_32
+    100088: Robot_01_part_33
+    100090: Robot_01_part_34
+    100092: Robot_01_part_35
+    100094: Robot_01_part_36
+    100096: Robot_01_part_37
+    100098: Robot_01_part_38
+    100100: Robot_01_part_39
+    100102: Robot_01_part_40
+    100104: Robot_01_part_41
+    100106: Robot_01_part_42
+    100108: Robot_01_part_43
+    100110: Robot_01_part_44
+    100112: Robot_01_part_45
+    100114: Robot_01_part_45Gizmo
+    100116: Robot_01_part_46
+    100118: Robot_01_part_47
+    100120: Robot_01_part_48
+    100122: Robot_01_part_48Gizmo
+    100124: Robot_01_part_49
+    100126: Robot_01_part_50
+    100128: Robot_01_part_50Gizmo
+    100130: Robot_01_part_51
+    100132: Robot_01_part_51Gizmo
+    400000: //RootNode
+    400002: Robot_01
+    400004: Robot_01_part_00
+    400006: Robot_01_part_01
+    400008: Robot_01_part_01Gizmo
+    400010: Robot_01_part_02
+    400012: Robot_01_part_03
+    400014: Robot_01_part_03Gizmo
+    400016: Robot_01_part_04
+    400018: Robot_01_part_05
+    400020: Robot_01_part_05Gizmo
+    400022: Robot_01_part_06
+    400024: Robot_01_part_06Gizmo
+    400026: Robot_01_part_07
+    400028: Robot_01_part_07Gizmo
+    400030: Robot_01_part_08
+    400032: Robot_01_part_09
+    400034: Robot_01_part_10
+    400036: Robot_01_part_10Gizmo
+    400038: Robot_01_part_11
+    400040: Robot_01_part_11Gizmo
+    400042: Robot_01_part_12
+    400044: Robot_01_part_13
+    400046: Robot_01_part_14
+    400048: Robot_01_part_15
+    400050: Robot_01_part_16
+    400052: Robot_01_part_17
+    400054: Robot_01_part_18
+    400056: Robot_01_part_19
+    400058: Robot_01_part_20
+    400060: Robot_01_part_21
+    400062: Robot_01_part_22
+    400064: Robot_01_part_23
+    400066: Robot_01_part_24
+    400068: Robot_01_part_25
+    400070: Robot_01_part_26
+    400072: Robot_01_part_27
+    400074: Robot_01_part_28
+    400076: Robot_01_part_28Gizmo
+    400078: Robot_01_part_29
+    400080: Robot_01_part_29Gizmo
+    400082: Robot_01_part_30
+    400084: Robot_01_part_31
+    400086: Robot_01_part_32
+    400088: Robot_01_part_33
+    400090: Robot_01_part_34
+    400092: Robot_01_part_35
+    400094: Robot_01_part_36
+    400096: Robot_01_part_37
+    400098: Robot_01_part_38
+    400100: Robot_01_part_39
+    400102: Robot_01_part_40
+    400104: Robot_01_part_41
+    400106: Robot_01_part_42
+    400108: Robot_01_part_43
+    400110: Robot_01_part_44
+    400112: Robot_01_part_45
+    400114: Robot_01_part_45Gizmo
+    400116: Robot_01_part_46
+    400118: Robot_01_part_47
+    400120: Robot_01_part_48
+    400122: Robot_01_part_48Gizmo
+    400124: Robot_01_part_49
+    400126: Robot_01_part_50
+    400128: Robot_01_part_50Gizmo
+    400130: Robot_01_part_51
+    400132: Robot_01_part_51Gizmo
+    4300000: Robot_01
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Robot_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Robot_01_part_00
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

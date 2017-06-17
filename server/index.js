@@ -14,6 +14,10 @@ io.on('connection', function (socket) {
 
     playerList[sessionId] = true;
 
+    socket.on('enemy', function (data) {
+        socket.broadcast.emit('enemy', data);
+    });
+
     socket.on('move', function (data) {
         socket.broadcast.emit('move', data);
     });

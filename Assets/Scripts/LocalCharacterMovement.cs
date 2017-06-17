@@ -30,8 +30,6 @@ namespace Assets.Scripts
 
             if (socket != null && playerRigidBody != null)
             {
-                Debug.Log("Move session id: " + sessionId);
-
                 socket.Emit("move", new JSONObject(
                     string.Format(@"{{""s"":""{0}"",""x"":{1},""z"":{2},""a"":{3},""ry"":{4}}}",
                     sessionId,

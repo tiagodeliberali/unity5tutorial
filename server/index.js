@@ -18,6 +18,10 @@ io.on('connection', function (socket) {
         socket.broadcast.emit('move', data);
     });
 
+    socket.on('mothership', function (data) {
+        socket.broadcast.emit('mothership', data);
+    });
+
     socket.on('disconnect', function () {
         console.log('Disconnectiong client');
         delete playerList[sessionId];

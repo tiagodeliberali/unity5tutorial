@@ -1,11 +1,11 @@
-﻿using UnityEngine;
-using System.Collections;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+﻿using SocketIO;
+using UnityEngine;
 
 public class MotherShip : MonoBehaviour 
 {
-	public int collectedEnergy = 0;
+    public SocketIOComponent socket;
+
+    public int collectedEnergy = 0;
 	public int neededEnergy;
 
 	public GameObject[] energy;
@@ -50,19 +50,15 @@ public class MotherShip : MonoBehaviour
 	{
 		if(other.tag == "Player")
 		{
-			//Take collected count and add it to the energy of the reactor, then reset the players collected energy to zero
 			if(playerInventory.collectedEnergy != 0)
 			{
-				collectedEnergy += playerInventory.collectedEnergy;
+                var collected = playerInventory.collectedEnergy;
+
+                collectedEnergy += collected;
 				playerInventory.collectedEnergy = 0;
-			}
-			//Need ten to win the game.
-			//if(collectedEnergy == neededEnergy)
-			//{
-				//print ("You win!");
-				//anim.SetTrigger("IsGameOver");
-			//}
-			
+
+                socket.Emit("mothership", new JSONObject(string.Format(@"{{""q"":{0}}}", collected)));
+            }
 		}
 	}
 }

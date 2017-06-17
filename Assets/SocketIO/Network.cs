@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Assets.Scripts;
 using SocketIO;
 using UnityEngine;
@@ -14,11 +15,20 @@ public class Network : MonoBehaviour
 	void Start ()
     {
         socket = GetComponent<SocketIOComponent>();
+        socket.On("mothership", OnMothershipEmit);
         socket.On("session", OnSessionStarted);
         socket.On("open", OnConnected);
         socket.On("spawn", OnSpawned);
         socket.On("unspawn", OnUnspawned);
         socket.On("move", OnMovement);
+    }
+
+    private void OnMothershipEmit(SocketIOEvent obj)
+    {
+        var quantity = int.Parse(obj.data["q"].ToString());
+
+        var mothership = GameObject.FindGameObjectWithTag("Mothership");
+        mothership.GetComponent<MotherShip>().collectedEnergy += quantity;
     }
 
     private void OnSessionStarted(SocketIOEvent obj)

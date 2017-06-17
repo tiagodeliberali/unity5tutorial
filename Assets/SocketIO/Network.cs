@@ -9,10 +9,12 @@ public class Network : MonoBehaviour
     static SocketIOComponent socket;
 
     public GameObject playerPrefab;
+    public GameObject enemyPrefab;
 
     Dictionary<string, GameObject> playerList = new Dictionary<string, GameObject>();
+    Dictionary<string, GameObject> enemyList = new Dictionary<string, GameObject>();
 
-	void Start ()
+    void Start ()
     {
         socket = GetComponent<SocketIOComponent>();
         socket.On("mothership", OnMothershipEmit);
@@ -21,6 +23,20 @@ public class Network : MonoBehaviour
         socket.On("spawn", OnSpawned);
         socket.On("unspawn", OnUnspawned);
         socket.On("move", OnMovement);
+        socket.On("enemy", OnEnemyMovement);
+    }
+
+    private void OnSessionStarted(SocketIOEvent obj)
+    {
+        string sessionId = GetSessionId(obj);
+
+        Debug.Log("Connected sessionId: " + sessionId);
+
+        var player = GameObject.FindGameObjectWithTag("Player");
+        player.GetComponent<LocalCharacterMovement>().sessionId = sessionId;
+
+        var enemy = GameObject.FindGameObjectWithTag("Enemy");
+        enemy.GetComponent<EnemyMovement>().sessionId = sessionId;
     }
 
     private void OnMothershipEmit(SocketIOEvent obj)
@@ -31,22 +47,20 @@ public class Network : MonoBehaviour
         mothership.GetComponent<MotherShip>().collectedEnergy += quantity;
     }
 
-    private void OnSessionStarted(SocketIOEvent obj)
-    {
-        string sessionId = GetSessionId(obj);
-
-        Debug.Log("Connected sessionId: " + sessionId);
-
-        var player = GameObject.FindGameObjectWithTag("Player");
-
-        player.GetComponent<LocalCharacterMovement>().sessionId = sessionId;
-    }
-
     private void OnMovement(SocketIOEvent obj)
     {
         string sessionId = GetSessionId(obj);
 
         playerList[sessionId].GetComponent<NetworkCharacterMovement>().OnMovement(obj);
+    }
+
+    private void OnEnemyMovement(SocketIOEvent obj)
+    {
+        string sessionId = GetSessionId(obj);
+
+        Debug.Log("OnEnemyMovement sessionId: " + sessionId + obj.ToString());
+
+        enemyList[sessionId].GetComponent<NetworkEnemyMovement>().OnMovement(obj);
     }
 
     private void OnUnspawned(SocketIOEvent obj)
@@ -58,6 +72,10 @@ public class Network : MonoBehaviour
         if (playerList.ContainsKey(sessionId))
         {
             Destroy(playerList[sessionId]);
+            Destroy(enemyList[sessionId]);
+
+            playerList.Remove(sessionId);
+            enemyList.Remove(sessionId);
         }
     }
 
@@ -67,14 +85,14 @@ public class Network : MonoBehaviour
 
         Debug.Log("Spawned sessionid: " + sessionId);
 
-        var player = GameObject.FindGameObjectWithTag("Player");
+        var newPlayer = 
+            Instantiate(playerPrefab, new Vector3(120 + playerList.Count, 0, 130 + playerList.Count), Quaternion.Euler(0, 0, 0));
 
-        var playerRigidBody = player.GetComponent<Rigidbody>();
+        var newEnemy =
+            Instantiate(enemyPrefab, new Vector3(150 + enemyList.Count, 0, 90 + enemyList.Count), Quaternion.Euler(0, 0, 0));
 
-        var gameObject = 
-            Instantiate(playerPrefab, new Vector3(120 + playerList.Count, 0, 130 + playerList.Count), playerRigidBody.rotation);
-
-        playerList.Add(sessionId, gameObject);
+        playerList.Add(sessionId, newPlayer);
+        enemyList.Add(sessionId, newEnemy);
     }
 
     void OnConnected(SocketIOEvent obj)

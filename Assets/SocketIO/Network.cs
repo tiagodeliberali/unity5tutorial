@@ -29,6 +29,7 @@ public class Network : MonoBehaviour
     private void OnSessionStarted(SocketIOEvent obj)
     {
         string sessionId = GetSessionId(obj);
+        int energyCount = int.Parse(obj.data["q"].ToString());
 
         Debug.Log("Connected sessionId: " + sessionId);
 
@@ -37,6 +38,9 @@ public class Network : MonoBehaviour
 
         var enemy = GameObject.FindGameObjectWithTag("Enemy");
         enemy.GetComponent<EnemyMovement>().sessionId = sessionId;
+
+        var mothership = GameObject.FindGameObjectWithTag("Mothership");
+        mothership.GetComponent<MotherShip>().collectedEnergy = energyCount;
     }
 
     private void OnMothershipEmit(SocketIOEvent obj)

@@ -17,7 +17,7 @@ Platform assembly: C:\projetos\games\mygame\mygame_Data\Managed\UnityEngine.Netw
 Loading C:\projetos\games\mygame\mygame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\projetos\games\mygame\mygame_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\projetos\games\mygame\mygame_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.145 seconds
+- Completed reload, in  0.029 seconds
 Platform assembly: C:\projetos\games\mygame\mygame_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\projetos\games\mygame\mygame_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\projetos\games\mygame\mygame_Data\Managed\Mono.Security.dll (this message is harmless)
@@ -25,3 +25,1046 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.861829 ms
+6/17/2017 12:23:57 PM|Error|WebSocket.Send|A WebSocket connection isn't established.
+6/17/2017 12:23:58 PM|Error|WebSocket.Send|A WebSocket connection isn't established.
+Connected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Connected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3898 -> priority: 1 
+  Thread -> id: 2700 -> priority: 1 
+Connected sessionId: SJ85YpfQW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Spawned sessionid: Bk1tFazQ-
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.1399,"z":91.92136,"ry":128.7471}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.162,"z":91.90813,"ry":128.8255}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.1857,"z":91.89394,"ry":128.925}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.2337,"z":91.86679,"ry":128.2612}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.2128,"z":91.87834,"ry":128.3965}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.2686,"z":91.84467,"ry":128.6405}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.3197,"z":91.81586,"ry":127.9558}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.2682,"z":91.84452,"ry":128.1378}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.292,"z":91.8307,"ry":128.2443}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.317,"z":91.81617,"ry":128.3535}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.3403,"z":91.80266,"ry":128.4587}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.3596,"z":91.79146,"ry":128.578}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.4097,"z":91.76351,"ry":127.8893}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.3901,"z":91.77478,"ry":128.0455}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.4245,"z":91.75519,"ry":128.0674}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.4363,"z":91.74838,"ry":128.2442}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.4706,"z":91.72886,"ry":128.2691}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.4873,"z":91.71935,"ry":128.3659}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.5127,"z":91.70497,"ry":128.4628}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.5616,"z":91.67795,"ry":127.7811}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.5377,"z":91.69189,"ry":127.9628}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.5649,"z":91.67654,"ry":128.1027}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.5874,"z":91.66386,"ry":128.2104}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.6124,"z":91.64979,"ry":128.324}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.6348,"z":91.63729,"ry":128.4016}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.6835,"z":91.61055,"ry":127.7213}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.664,"z":91.62215,"ry":127.905}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.6874,"z":91.6091,"ry":128.0273}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.7234,"z":91.58908,"ry":128.0006}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.726,"z":91.58775,"ry":128.2842}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.7589,"z":91.56935,"ry":128.3897}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.8068,"z":91.54326,"ry":127.7029}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.7843,"z":91.55666,"ry":127.8912}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.8114,"z":91.54169,"ry":127.9971}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.8369,"z":91.52766,"ry":128.1128}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.8594,"z":91.51539,"ry":128.2317}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.9051,"z":91.49057,"ry":127.5779}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.8857,"z":91.50238,"ry":127.7504}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.9116,"z":91.48817,"ry":127.8648}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.9367,"z":91.47447,"ry":127.9941}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.9589,"z":91.46242,"ry":128.0904}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":144.9847,"z":91.44844,"ry":128.185}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.0317,"z":91.42304,"ry":127.5131}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.0233,"z":91.42794,"ry":128.1207}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.0595,"z":91.40844,"ry":127.6059}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.0359,"z":91.42154,"ry":127.7089}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.0557,"z":91.41102,"ry":127.8727}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.0788,"z":91.39875,"ry":127.9962}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.1255,"z":91.37363,"ry":127.3304}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.1066,"z":91.38542,"ry":127.5047}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.1329,"z":91.37125,"ry":127.6198}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.1585,"z":91.35759,"ry":127.7471}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.1815,"z":91.34541,"ry":127.8713}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.2043,"z":91.33338,"ry":127.9532}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.2506,"z":91.30858,"ry":127.2949}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.2332,"z":91.31966,"ry":127.4506}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.2596,"z":91.30562,"ry":127.5891}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.2828,"z":91.2934,"ry":127.7265}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.3215,"z":91.27291,"ry":127.5521}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.3147,"z":91.27719,"ry":127.9655}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.3625,"z":91.25167,"ry":127.2786}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.3585,"z":91.25517,"ry":127.43}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.3842,"z":91.24162,"ry":127.5733}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.4067,"z":91.22982,"ry":127.6835}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.432,"z":91.21655,"ry":127.8006}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.4553,"z":91.20446,"ry":127.8692}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.5038,"z":91.1787,"ry":127.1782}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.4855,"z":91.19057,"ry":127.357}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.5095,"z":91.17802,"ry":127.4672}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.5322,"z":91.16621,"ry":127.6308}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.5572,"z":91.15314,"ry":127.711}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.6053,"z":91.12762,"ry":127.0322}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.5865,"z":91.13978,"ry":127.2323}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.6102,"z":91.12743,"ry":127.3657}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.6353,"z":91.11428,"ry":127.5087}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.6576,"z":91.10281,"ry":127.619}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.6828,"z":91.08971,"ry":127.7348}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.7301,"z":91.06472,"ry":127.0542}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.7101,"z":91.07767,"ry":127.2236}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.72,"z":91.07219,"ry":128.2323}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.7407,"z":91.06077,"ry":129.1377}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.7578,"z":91.05051,"ry":129.9628}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.7708,"z":91.04128,"ry":131.0998}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.8177,"z":91.01465,"ry":130.424}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.7978,"z":91.02345,"ry":131.0435}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.8235,"z":91.00578,"ry":131.4157}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.8435,"z":90.9912,"ry":131.7517}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.8652,"z":90.97522,"ry":132.0633}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.8886,"z":90.95797,"ry":132.5448}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.9323,"z":90.93057,"ry":131.8974}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.909,"z":90.93979,"ry":132.233}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.9348,"z":90.92094,"ry":132.2698}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.9591,"z":90.90274,"ry":132.3507}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.9767,"z":90.88874,"ry":132.5208}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":145.9972,"z":90.87325,"ry":132.647}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.0437,"z":90.84395,"ry":131.9026}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.0234,"z":90.85246,"ry":132.047}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.0404,"z":90.83598,"ry":134.3834}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.0528,"z":90.82321,"ry":136.7922}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.0656,"z":90.80928,"ry":139.2321}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.1119,"z":90.78074,"ry":138.0562}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.0803,"z":90.77533,"ry":141.5952}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.0888,"z":90.7576,"ry":143.551}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.1066,"z":90.73473,"ry":144.98}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.1208,"z":90.7133,"ry":146.3517}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.1385,"z":90.69099,"ry":147.6129}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.1854,"z":90.66284,"ry":145.804}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.1593,"z":90.6688,"ry":147.4922}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.18,"z":90.64575,"ry":148.7645}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.1929,"z":90.62634,"ry":150.1612}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.2096,"z":90.60551,"ry":151.4486}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.2247,"z":90.58546,"ry":152.8594}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.4348,"z":90.40998,"ry":159.9586}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.318,"z":90.46738,"ry":162.4554}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.3159,"z":90.45724,"ry":164.214}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.3351,"z":90.43898,"ry":165.7359}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.3547,"z":90.42015,"ry":167.2726}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.4038,"z":90.39457,"ry":165.2655}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.3764,"z":90.40347,"ry":167.1404}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.3977,"z":90.38422,"ry":168.6314}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.414,"z":90.36693,"ry":170.1562}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.4337,"z":90.34803,"ry":171.6598}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.4495,"z":90.33084,"ry":173.1908}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.4996,"z":90.30471,"ry":171.2027}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.4746,"z":90.31242,"ry":173.0267}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.4926,"z":90.29478,"ry":174.506}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.5123,"z":90.27601,"ry":175.9911}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.5285,"z":90.25871,"ry":177.4886}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.578,"z":90.23275,"ry":175.4996}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.553,"z":90.24053,"ry":177.2993}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.5744,"z":90.22101,"ry":178.7536}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.5916,"z":90.203,"ry":180.2054}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.6103,"z":90.18427,"ry":181.6902}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.6268,"z":90.16658,"ry":183.1707}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.6738,"z":90.14194,"ry":181.2023}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.6478,"z":90.14989,"ry":182.9718}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.6689,"z":90.13081,"ry":184.3969}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.6886,"z":90.11168,"ry":185.843}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.7046,"z":90.09421,"ry":187.3094}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.7243,"z":90.0751,"ry":188.7536}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.773,"z":90.04955,"ry":186.7733}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.7463,"z":90.05792,"ry":188.5415}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.769,"z":90.03762,"ry":189.867}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.7825,"z":90.02133,"ry":191.3589}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.8015,"z":90.00283,"ry":192.8342}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.8196,"z":89.98458,"ry":194.2345}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.869,"z":89.95865,"ry":192.2808}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.8447,"z":89.96585,"ry":194.006}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.8611,"z":89.94871,"ry":195.432}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.8812,"z":89.92971,"ry":196.8351}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.8973,"z":89.91238,"ry":198.2573}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.9184,"z":89.89267,"ry":199.5995}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.9655,"z":89.86791,"ry":197.654}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.939,"z":89.87622,"ry":199.3659}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.9582,"z":89.85784,"ry":200.7811}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.9795,"z":89.83803,"ry":202.1447}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":146.995,"z":89.82062,"ry":203.5572}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.0106,"z":89.80365,"ry":204.982}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.0601,"z":89.77765,"ry":202.9941}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.0358,"z":89.78507,"ry":204.681}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.0574,"z":89.76546,"ry":206.0252}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.073,"z":89.74826,"ry":207.4338}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.0931,"z":89.72906,"ry":208.8031}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.1419,"z":89.70348,"ry":206.8216}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.1152,"z":89.71183,"ry":208.5119}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.1356,"z":89.69279,"ry":209.8581}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.1813,"z":89.65991,"ry":210.0097}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.1765,"z":89.64916,"ry":211.5114}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.1925,"z":89.63194,"ry":212.9121}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.2094,"z":89.61469,"ry":214.2926}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.2304,"z":89.59547,"ry":215.6145}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.2449,"z":89.57906,"ry":217.0282}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: Bk1tFazQ-[SocketIOEvent: name=enemy, data={"s":"Bk1tFazQ-","x":147.2947,"z":89.55338,"ry":215.0705}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unspawned sessionid: Bk1tFazQ-
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Spawned sessionid: HkL2Y6fm-
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: [SocketIOEvent: name=enemy, data={"s":"","x":150,"z":90,"ry":358.4335}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.9628,"z":90.01539,"ry":328.2422}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.8819,"z":90.04888,"ry":323.4037}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.8434,"z":90.06479,"ry":321.5328}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.8033,"z":90.08138,"ry":319.7295}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.76,"z":90.0993,"ry":317.9269}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.7169,"z":90.11715,"ry":316.2758}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.6697,"z":90.13667,"ry":314.6046}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.6214,"z":90.15665,"ry":313.0343}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.5712,"z":90.17742,"ry":311.5342}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.5175,"z":90.19968,"ry":310.0771}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.4642,"z":90.22173,"ry":308.7721}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.4124,"z":90.24317,"ry":307.5977}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.3588,"z":90.26534,"ry":306.4705}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.3052,"z":90.28751,"ry":305.4275}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.2507,"z":90.31009,"ry":304.4445}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.1957,"z":90.33281,"ry":303.5303}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.1439,"z":90.35428,"ry":302.7326}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.0906,"z":90.3763,"ry":301.9731}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":149.0372,"z":90.3984,"ry":301.2679}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.9837,"z":90.42054,"ry":300.6137}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.9302,"z":90.4427,"ry":300.0073}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.8766,"z":90.46487,"ry":299.446}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.823,"z":90.48705,"ry":298.9266}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.7688,"z":90.50946,"ry":298.4407}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.7154,"z":90.53157,"ry":297.9974}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.662,"z":90.55367,"ry":297.5874}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.6087,"z":90.57571,"ry":297.2086}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.5551,"z":90.59789,"ry":296.856}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.5015,"z":90.62006,"ry":296.5298}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.448,"z":90.64223,"ry":296.2278}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.3944,"z":90.6644,"ry":295.9484}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.3403,"z":90.6868,"ry":295.687}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.2872,"z":90.70873,"ry":295.4504}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.2334,"z":90.731,"ry":295.2279}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.1801,"z":90.75307,"ry":295.0239}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.1232,"z":90.77663,"ry":294.8224}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.0729,"z":90.79742,"ry":294.6586}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":148.0184,"z":90.81996,"ry":294.4793}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.966,"z":90.84148,"ry":294.319}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.9088,"z":90.86489,"ry":294.1576}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.8577,"z":90.88586,"ry":294.0248}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.8056,"z":90.9072,"ry":293.8997}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.7524,"z":90.92903,"ry":293.7811}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.6972,"z":90.95166,"ry":293.6823}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.6446,"z":90.97343,"ry":293.5822}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.592,"z":90.99502,"ry":293.4889}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.5386,"z":91.01694,"ry":293.4015}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.4836,"z":91.03953,"ry":293.3331}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.4316,"z":91.06104,"ry":293.2603}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.377,"z":91.08349,"ry":293.1889}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.3164,"z":91.10835,"ry":293.1162}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.2691,"z":91.12778,"ry":293.0773}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.2089,"z":91.15276,"ry":293.0155}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.1555,"z":91.1747,"ry":292.9651}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.1021,"z":91.19663,"ry":292.9188}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":147.0487,"z":91.21857,"ry":292.8908}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.995,"z":91.24085,"ry":292.8508}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.9414,"z":91.26289,"ry":292.8137}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.8884,"z":91.28469,"ry":292.7802}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.8349,"z":91.3067,"ry":292.7494}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.7816,"z":91.32861,"ry":292.7214}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.7281,"z":91.35064,"ry":292.6959}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.6749,"z":91.37254,"ry":292.6874}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.6207,"z":91.3951,"ry":292.6652}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.5665,"z":91.41742,"ry":292.6595}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.5071,"z":91.44212,"ry":292.6382}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.4599,"z":91.46159,"ry":292.6226}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.407,"z":91.48337,"ry":292.6069}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.3543,"z":91.50511,"ry":292.593}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.301,"z":91.52709,"ry":292.5806}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.2477,"z":91.54911,"ry":292.5699}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.1938,"z":91.57136,"ry":292.5606}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.1407,"z":91.59328,"ry":292.5529}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.0873,"z":91.61536,"ry":292.5612}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":146.0332,"z":91.63797,"ry":292.5551}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":145.9808,"z":91.65962,"ry":292.5497}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":145.9272,"z":91.68182,"ry":292.5454}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":145.8742,"z":91.70377,"ry":292.5427}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnEnemyMovement sessionId: HkL2Y6fm-[SocketIOEvent: name=enemy, data={"s":"HkL2Y6fm-","x":145.8209,"z":91.72586,"ry":292.5413}]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

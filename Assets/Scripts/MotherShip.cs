@@ -31,10 +31,12 @@ public class MotherShip : MonoBehaviour
 
 	void Update()
 	{
-		if(totalEnergy < neededEnergy || collectedEnergy == neededEnergy)
+		if(totalEnergy < neededEnergy || collectedEnergy >= neededEnergy)
 		{
 			//print ("Game Over!");
 			anim.SetTrigger("IsGameOver");
+
+            socket.Emit("gameover");
 
 			restartTimer+= Time.deltaTime;
 

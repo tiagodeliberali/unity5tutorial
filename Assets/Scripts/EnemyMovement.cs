@@ -17,7 +17,7 @@ public class EnemyMovement : MonoBehaviour
     EntityMovement lastMovement = new EntityMovement();
 
     float lastEmitTime;
-    float timeToEmit = 0.25f;
+    float timeToEmit = 0.1f;
 
     void Awake()
     {
@@ -47,8 +47,6 @@ public class EnemyMovement : MonoBehaviour
     {
         if (Time.time - lastEmitTime > timeToEmit)
         {
-            Debug.Log("EmitNewPostion");
-
             lastEmitTime = Time.time;
 
             var currentMovement =
@@ -56,8 +54,6 @@ public class EnemyMovement : MonoBehaviour
 
             if (!currentMovement.Equals(lastMovement))
             {
-                Debug.Log("New Enemy position: " + currentMovement);
-
                 lastMovement = currentMovement;
 
                 socket.Emit("enemy", currentMovement.ToJSONObject());

@@ -22,7 +22,7 @@ public class Network : MonoBehaviour
         socket.On("open", OnConnected);
         socket.On("spawn", OnSpawned);
         socket.On("unspawn", OnUnspawned);
-        socket.On("move", OnMovement);
+        socket.On("move", OnPlayerMovement);
         socket.On("enemy", OnEnemyMovement);
     }
 
@@ -51,8 +51,11 @@ public class Network : MonoBehaviour
         mothership.GetComponent<MotherShip>().collectedEnergy += quantity;
     }
 
-    private void OnMovement(SocketIOEvent obj)
+    private void OnPlayerMovement(SocketIOEvent obj)
     {
+        var movement = new EntityMovement(obj);
+        Debug.Log("NotEqualMovement: " + movement.ToString());
+
         string sessionId = GetSessionId(obj);
 
         playerList[sessionId].GetComponent<NetworkCharacterMovement>().OnMovement(obj);

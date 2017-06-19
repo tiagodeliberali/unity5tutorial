@@ -14,13 +14,11 @@ namespace Assets.Scripts
 
         public void OnMovement(SocketIOEvent obj)
         {
-            float position_x = float.Parse(obj.data["x"].ToString());
-            float position_z = float.Parse(obj.data["z"].ToString());
-            float rotation_y = float.Parse(obj.data["ry"].ToString());
+            var movement = new EntityMovement(obj);
 
             enemyTransform.SetPositionAndRotation(
-                new Vector3(position_x, 0f, position_z),
-                Quaternion.Euler(0f, rotation_y, 0f));
+                new Vector3(movement.X, 0f, movement.Z),
+                Quaternion.Euler(0f, movement.RY, 0f));
         }
     }
 }

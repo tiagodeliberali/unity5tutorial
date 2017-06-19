@@ -33,7 +33,7 @@ public class EnemyMovement : MonoBehaviour
             nav.SetDestination(player.position);
 
             var currentMovement = 
-                new EntityMovement(sessionId, enemy.position.x, enemy.position.z, enemy.rotation.eulerAngles.y, false);
+                new EntityMovement(sessionId, enemy.position.x, enemy.position.z, enemy.rotation.eulerAngles.y);
 
             if (!currentMovement.Equals(lastMovement))
             {

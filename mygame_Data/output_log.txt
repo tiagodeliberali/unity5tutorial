@@ -17,7 +17,7 @@ Platform assembly: C:\projetos\games\mygame\mygame_Data\Managed\UnityEngine.Netw
 Loading C:\projetos\games\mygame\mygame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\projetos\games\mygame\mygame_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\projetos\games\mygame\mygame_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.119 seconds
+- Completed reload, in  0.145 seconds
 Platform assembly: C:\projetos\games\mygame\mygame_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\projetos\games\mygame\mygame_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\projetos\games\mygame\mygame_Data\Managed\Mono.Security.dll (this message is harmless)
@@ -26,41 +26,25 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.302123 ms
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
+UnloadTime: 1.570370 ms
+6/19/2017 11:37:33 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
+6/19/2017 11:37:34 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
+Connected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Connected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 19ec -> priority: 1 
-  Thread -> id: 1898 -> priority: 1 
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-6/19/2017 10:36:41 AM|Error|WebSocket.Send|A WebSocket connection isn't established.
-Connected
+  Thread -> id: 4224 -> priority: 1 
+  Thread -> id: 4228 -> priority: 1 
+Connected sessionId: BJVhZDBQZ
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Connected
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Connected sessionId: HykdX8SmW
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Spawned sessionid: B1tuQIHX-
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unspawned sessionid: B1tuQIHX-
+Spawned sessionid: ryw2ZwB7b
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

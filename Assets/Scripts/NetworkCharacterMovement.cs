@@ -7,26 +7,34 @@ namespace Assets.Scripts
     {
         private Transform playerTransform;
         private Animator anim;
+        private EntityMovement movement;
+        private CharacterMovement characterMovement;
 
         void Awake()
         {
-            anim = GetComponent<Animator>();
+            characterMovement = new CharacterMovement(GetComponent<Animator>(), GetComponent<Rigidbody>());
             playerTransform = GetComponent<Transform>();
+        }
+
+        void FixedUpdate()
+        {
+            if (movement != null)
+            {
+                characterMovement.Move(movement.LH.Value, movement.LV.Value);
+            }
         }
 
         public void OnMovement(SocketIOEvent obj)
         {
-            float position_x = float.Parse(obj.data["x"].ToString());
-            float position_z = float.Parse(obj.data["z"].ToString());
-            bool isRunning = bool.Parse(obj.data["a"].ToString());
+            movement = new EntityMovement(obj);
 
             float rotation_y = float.Parse(obj.data["ry"].ToString());
 
             playerTransform.SetPositionAndRotation(
-                new Vector3(position_x, 0f, position_z), 
-                Quaternion.Euler(0f, rotation_y, 0f));
+                new Vector3(movement.X, 0f, movement.Z), 
+                Quaternion.Euler(0f, movement.RY, 0f));
             
-            anim.SetBool("IsRunning", isRunning);
+            anim.SetBool("IsRunning", movement.IsRunning.Value);
         }
     }
 }

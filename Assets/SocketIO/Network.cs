@@ -54,7 +54,6 @@ public class Network : MonoBehaviour
     private void OnPlayerMovement(SocketIOEvent obj)
     {
         var movement = new EntityMovement(obj);
-        Debug.Log("NotEqualMovement: " + movement.ToString());
 
         string sessionId = GetSessionId(obj);
 
@@ -95,6 +94,8 @@ public class Network : MonoBehaviour
 
         var newEnemy =
             Instantiate(enemyPrefab, new Vector3(150 + enemyList.Count, 0, 90 + enemyList.Count), Quaternion.Euler(0, 0, 0));
+
+        newEnemy.GetComponent<NetworkEnemyMovement>().player = newPlayer;
 
         playerList.Add(sessionId, newPlayer);
         enemyList.Add(sessionId, newEnemy);

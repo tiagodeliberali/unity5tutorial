@@ -11,8 +11,10 @@ public class EnemyMovement : MonoBehaviour
     Transform enemy;
     NavMeshAgent nav;
 
-    private MotherShip motherShip;
-    private PlayerInventory playerInventory;
+    MotherShip motherShip;
+    PlayerInventory playerInventory;
+
+    EntityMovement lastMovement = new EntityMovement();
 
     void Awake()
     {
@@ -30,12 +32,15 @@ public class EnemyMovement : MonoBehaviour
         {
             nav.SetDestination(player.position);
 
-            socket.Emit("enemy", new JSONObject(
-                string.Format(@"{{""s"":""{0}"",""x"":{1},""z"":{2},""ry"":{3}}}",
-                sessionId,
-                enemy.position.x,
-                enemy.position.z,
-                enemy.rotation.eulerAngles.y)));
+            var currentMovement = 
+                new EntityMovement(sessionId, enemy.position.x, enemy.position.z, enemy.rotation.eulerAngles.y, false);
+
+            if (!currentMovement.Equals(lastMovement))
+            {
+                lastMovement = currentMovement;
+
+                socket.Emit("enemy", currentMovement.ToJSONObject());
+            }
         }
         else
         {

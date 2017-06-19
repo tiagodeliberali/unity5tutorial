@@ -16,7 +16,9 @@ namespace Assets.Scripts
         private Vector3 turning;
         private Animator anim;
         private Rigidbody playerRigidBody;
-        
+
+        EntityMovement lastMovement = new EntityMovement();
+
         void Start()
         {
             anim = GetComponent<Animator>();
@@ -30,13 +32,15 @@ namespace Assets.Scripts
 
             if (socket != null && playerRigidBody != null)
             {
-                socket.Emit("move", new JSONObject(
-                    string.Format(@"{{""s"":""{0}"",""x"":{1},""z"":{2},""a"":{3},""ry"":{4}}}",
-                    sessionId,
-                    playerRigidBody.position.x, 
-                    playerRigidBody.position.z,
-                    lh != 0f || lv != 0,
-                    playerRigidBody.rotation.eulerAngles.y)));
+                var currentMovement =
+                    new EntityMovement(sessionId, playerRigidBody.position.x, playerRigidBody.position.z, playerRigidBody.rotation.eulerAngles.y, lh != 0f || lv != 0);
+
+                if (!currentMovement.Equals(lastMovement))
+                {
+                    lastMovement = currentMovement;
+
+                    socket.Emit("move", currentMovement.ToJSONObject());
+                }
             }
 
             Move(lh, lv);

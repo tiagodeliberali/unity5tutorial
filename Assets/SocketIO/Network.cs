@@ -62,8 +62,6 @@ public class Network : MonoBehaviour
     {
         string sessionId = GetSessionId(obj);
 
-        Debug.Log("OnEnemyMovement sessionId: " + sessionId + obj.ToString());
-
         enemyList[sessionId].GetComponent<NetworkEnemyMovement>().OnMovement(obj);
     }
 

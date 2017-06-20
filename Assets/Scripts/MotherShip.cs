@@ -16,6 +16,7 @@ public class MotherShip : MonoBehaviour
 	private PlayerInventory playerInventory;
 
 	private Animator anim;
+    private bool disconnected = false;
 
 	public float restartDelay = 5f;
 	private float restartTimer;
@@ -33,6 +34,14 @@ public class MotherShip : MonoBehaviour
 	{
 		if(totalEnergy < neededEnergy || collectedEnergy >= neededEnergy)
 		{
+            if (!disconnected)
+            {
+                socket.Emit("gameover");
+                socket.Close();
+
+                disconnected = true;
+            }
+
 			//print ("Game Over!");
 			anim.SetTrigger("IsGameOver");
 
@@ -40,9 +49,6 @@ public class MotherShip : MonoBehaviour
 
 			if(restartTimer >= restartDelay)
 			{
-                socket.Emit("gameover");
-                socket.Close();
-
                 Application.LoadLevel(Application.loadedLevel);
 			}
 

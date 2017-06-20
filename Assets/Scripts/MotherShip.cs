@@ -36,13 +36,14 @@ public class MotherShip : MonoBehaviour
 			//print ("Game Over!");
 			anim.SetTrigger("IsGameOver");
 
-            socket.Emit("gameover");
-
-			restartTimer+= Time.deltaTime;
+            restartTimer+= Time.deltaTime;
 
 			if(restartTimer >= restartDelay)
 			{
-				Application.LoadLevel(Application.loadedLevel);
+                socket.Emit("gameover");
+                socket.Close();
+
+                Application.LoadLevel(Application.loadedLevel);
 			}
 
 		}

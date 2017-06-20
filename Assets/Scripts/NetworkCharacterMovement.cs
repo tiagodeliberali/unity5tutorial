@@ -1,5 +1,5 @@
-﻿using SocketIO;
-using UnityEngine;
+﻿using UnityEngine;
+using UnitySocketIO.Events;
 
 namespace Assets.Scripts
 {
@@ -7,7 +7,7 @@ namespace Assets.Scripts
     {
         private Transform playerTransform;
         private Animator anim;
-        private EntityMovement movement;
+        private PlayerMovement movement;
         private CharacterMovement characterMovement;
 
         void Awake()
@@ -20,21 +20,17 @@ namespace Assets.Scripts
         {
             if (movement != null)
             {
-                characterMovement.Move(movement.LH.Value, movement.LV.Value);
+                characterMovement.Move(movement.LH, movement.LV);
             }
         }
 
         public void OnMovement(SocketIOEvent obj)
         {
-            movement = new EntityMovement(obj);
-
-            float rotation_y = float.Parse(obj.data["ry"].ToString());
+            movement = new PlayerMovement(obj);
 
             playerTransform.SetPositionAndRotation(
                 new Vector3(movement.X, 0f, movement.Z), 
                 Quaternion.Euler(0f, movement.RY, 0f));
-            
-            anim.SetBool("IsRunning", movement.IsRunning.Value);
         }
     }
 }

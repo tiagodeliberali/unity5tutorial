@@ -1,9 +1,9 @@
-﻿using SocketIO;
-using UnityEngine;
+﻿using UnityEngine;
+using UnitySocketIO;
 
 public class MotherShip : MonoBehaviour 
 {
-    public SocketIOComponent socket;
+    public SocketIOController socket;
 
     public int collectedEnergy = 0;
 	public int neededEnergy;
@@ -59,7 +59,7 @@ public class MotherShip : MonoBehaviour
                 collectedEnergy += collected;
 				playerInventory.collectedEnergy = 0;
 
-                socket.Emit("mothership", new JSONObject(string.Format(@"{{""q"":{0}}}", collected)));
+                socket.Emit("mothership", string.Format(@"{{""EnergyCount"":{0}}}", collected));
             }
 		}
 	}

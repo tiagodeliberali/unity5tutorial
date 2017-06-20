@@ -1,72 +1,68 @@
-﻿using SocketIO;
-using UnityEngine;
-using UnityEngine.AI;
+﻿using UnityEngine;
+using UnitySocketIO.Events;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyMovement
 {
-    public SocketIOComponent socket;
-    public string sessionId;
+    public string SessionId;
+    public float X;
+    public float Z;
+    public float RY;
 
-    Transform player;
-    Transform enemy;
-    NavMeshAgent nav;
-
-    MotherShip motherShip;
-    PlayerInventory playerInventory;
-
-    EntityMovement lastMovement = new EntityMovement();
-
-    float lastEmitTime;
-    float timeToEmit = 0.1f;
-
-    void Awake()
+    public EnemyMovement()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        enemy = GetComponent<Transform>();
-
-        nav = GetComponent<NavMeshAgent>();
-        motherShip = GameObject.Find("MotherShip").GetComponent<MotherShip>();
-        playerInventory = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInventory>();
+        SessionId = string.Empty;
     }
 
-    void Update()
+    public EnemyMovement(string sessionId, float x, float z, float ry)
     {
-        if (motherShip.collectedEnergy != motherShip.neededEnergy)
-        {
-            nav.SetDestination(player.position);
-
-            EmitNewPostion();
-        }
-        else
-        {
-            nav.enabled = false;
-        }
+        SessionId = sessionId;
+        X = x;
+        Z = z;
+        RY = ry;
     }
 
-    private void EmitNewPostion()
+    public EnemyMovement(SocketIOEvent obj)
     {
-        if (Time.time - lastEmitTime > timeToEmit)
-        {
-            lastEmitTime = Time.time;
+        var entity = JsonUtility.FromJson<PlayerMovement>(obj.data);
 
-            var currentMovement =
-                            new EntityMovement(sessionId, enemy.position.x, enemy.position.z, enemy.rotation.eulerAngles.y);
+        SessionId = entity.SessionId;
 
-            if (!currentMovement.Equals(lastMovement))
-            {
-                lastMovement = currentMovement;
-
-                socket.Emit("enemy", currentMovement.ToJSONObject());
-            }
-        }
+        X = entity.X;
+        Z = entity.Z;
+        RY = entity.RY;
     }
 
-    void OnTriggerEnter(Collider other)
+    public override string ToString()
     {
-        if (other.tag == "Player")
+        return JsonUtility.ToJson(this);
+    }
+
+    public override bool Equals(object obj)
+    {
+        if (ReferenceEquals(this, obj))
+            return true;
+
+        if (obj.GetType() != typeof(PlayerMovement))
+            return false;
+
+        var anotherMovement = obj as PlayerMovement;
+
+        return GetHashCode() == anotherMovement.GetHashCode();
+    }
+
+    public override int GetHashCode()
+    {
+        unchecked // Overflow is fine, just wrap
         {
-            motherShip.totalEnergy -= playerInventory.collectedEnergy;
-            playerInventory.collectedEnergy = 0;
+            int hash = (int)2166136261;
+
+            // Suitable nullity checks etc, of course :)
+            hash = (hash * 16777619) ^ (string.IsNullOrEmpty(SessionId) ? "SessionId".GetHashCode() : SessionId.GetHashCode());
+            hash = (hash * 16777619) ^ X.GetHashCode();
+            hash = (hash * 16777619) ^ Z.GetHashCode();
+            hash = (hash * 16777619) ^ RY.GetHashCode();
+
+            return hash;
         }
     }
 }

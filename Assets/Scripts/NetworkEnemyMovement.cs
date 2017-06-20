@@ -1,6 +1,6 @@
-﻿using SocketIO;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
+using UnitySocketIO.Events;
 
 namespace Assets.Scripts
 {
@@ -21,7 +21,7 @@ namespace Assets.Scripts
 
         public void OnMovement(SocketIOEvent obj)
         {
-            var movement = new EntityMovement(obj);
+            var movement = new EnemyMovement(obj);
 
             enemyTransform.SetPositionAndRotation(
                 new Vector3(movement.X, 0f, movement.Z),
